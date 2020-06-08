@@ -1,0 +1,72 @@
+body{
+margin:0 auto;
+ font-size:2em;
+ font-family: Tahoma;
+ color: white;
+}
+.container{
+ border:1px solid #bbb;
+ border-radius:2px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+
+nav{
+background: #4096ee;
+}
+ul{
+display:flex;
+list-style:none;
+font-size:0.7em;
+margin:0;
+padding:0;
+}
+li{
+padding:20px;
+}
+.last{
+margin-left:auto;
+}
+.sticky{
+position:fixed;
+top:0px;
+width:100%;
+}
+
+section{
+display:flex;
+height:70vh;
+align-items:center;
+justify-content:center;
+}
+.cover{
+width:30rem;
+}
+
+
+article{
+background: #4096ee;
+}
+.grid-cover{
+display:grid;
+grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+grid-gap:10px;
+}
+.box{
+background:#444;
+padding:100px;
+margin:10px;
+border-radius: 5px;
+}
+.box > img{
+width:100%;
+height:auto;
+}
+footer{
+background: brown;
+text-align:center;
+margin:0;
+font-size:0.8em;
+}
